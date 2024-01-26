@@ -34,13 +34,13 @@ variable container_max_mem_limit {
   default = ""
 }
 
-varriable annotations {
+variable annotations {
   description = "please provide annotations"
   type = map
   default = {}
 }
 
-varriable labels {
+variable labels {
   description = "please provide labels"
   type = map
   default = {}
